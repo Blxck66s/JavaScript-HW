@@ -1,6 +1,5 @@
-// Lab 4.7
-const btn = document.querySelector('button');
-btn.addEventListener('click', function () {
-  const text = document.querySelector('h1');
-  text.style.display = 'none';
+button = document.getElementsByTagName("button");
+text = document.getElementsByTagName("h1");
+button[0].addEventListener("click", function (event) {
+  text[0].style.display = "none";
 });
