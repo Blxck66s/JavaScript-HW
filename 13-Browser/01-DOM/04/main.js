@@ -1,0 +1,10 @@
+let qs = document.querySelector("li:nth-child(2)");
+console.dir(qs.textContent);
+let qsall = document.querySelectorAll("li:nth-child(2)");
+console.dir(qsall[0].textContent);
+let ElemClassname = document.getElementsByClassName("active");
+console.dir(ElemClassname[0].textContent);
+let ElemIdname = document.getElementById("2");
+console.dir(ElemIdname.textContent);
+let ElemTagname = document.getElementsByTagName("li");
+console.dir(ElemTagname[1].textContent);
